@@ -4,21 +4,43 @@
 
 .container {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
+ header{
+    width: auto;
 
+ }
+ .logo{
+    width: 20%;
+    float: left;
+    position: relative;
+    padding: auto;
+    margin-left: 35px;
+ }
 
 
 nav {
     background-color: blue;
     color: #fff;
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-right: 35px;
+    margin: 10px;
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    float: left;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+
 }
 
- nav:first-of-type .menu-item {
-    display: inline-block;
-    padding: 10px;
-    width: 15%;
-}
 
 .sidebar {
     margin-top: 30px;
@@ -33,7 +55,8 @@ nav {
 .banner{
     width: 100%;
     height: 30%;
-    padding: 2%;
+    position: relative;
+    
 }
 .banner .img{
     width: 100%;
