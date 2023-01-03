@@ -6,66 +6,106 @@
  header{
     width: 100%;
     height: 120px;
-    margin: 5px;
+    margin: 0px;
     border: 1px solid burlywood;
-
+    
 
  }
- .logo{
-    width: 45%;
-    height:100%
-    float: left;
-    position: relative;
 
+ .logo{
+    width: 35%;
+    height:100%;
+    margin :1px;
+    margin-left: 215px;
+    padding : 0px;
+    float: left;
+    position : relative;
  }
   .logo img{
     width: 115px;
     height: 115px;
+    
   }
-
-
-
 .menu {
-    color: rgb(149, 149, 153);
-    width: 50%;
+    color: rgb(126, 126, 130);
+    width: 35%;
     height: 100%;
+    margin-right: 215px;
     position: relative;
     float: right;
     border: 1px solid red;
-
 }
 .menu ul{
     text-decoration: none;
-
+    margin: 25px auto;
 }
-
 .menu ul li{
     float: left;
     display: block;
-    font-size: 18px;
-    padding: 25px;
+    font-size: 20px;
+    margin: 12px ;
+    padding: 1px;
+    border-radius: 10px;
 
 }
+.menu ul li:hover{
+    background: rgb(53, 118, 241);
+    color: white;
+} 
+.menu ul li:hover{
+    font-size: 1.5rem;
+}   
 
 section{
     width: 100%;
-    height: 950px;
+    height: 1150px;
     border: 1px solid rgb(255, 0, 17);
 }
 .banner{
-    width: 92%;
-    height: 30%;
+    width: 100%;
+    height: 35%;
     padding: 1px;
     margin: 1px;
     position: relative;
     float: inline-end;
     border: 1px solid black;
     background-image:url(../img/fotogrande.jpg);
+    text-transform:75%;
+}
+.banner .anuncio1{
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin-left: 300px;
+    z-index: 3;
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+}
+.banner .btn1  {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(53, 118, 241);
+    font-size: 25px;
+    z-index: 4;
+    margin: 200px;
+    margin-left: 300px;
+    text-align: center;
+   
+}
+.banner .btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.banner .btn1:hover{
+    font-size: 2.5rem;
+    background: rgb(53, 118, 241);
 }
 
 .article1 {
     width: 100%;
-    height: 35%;
+    height: 40%;
     float: left;
     position: relative;
     border: 1px solid rgb(10, 105, 46);
@@ -73,8 +113,8 @@ section{
 }
 
 .card1 {
-    width: 30%;
-    height:90%;
+    width: 35%;
+    height:95%;
     padding: 1px;
     margin: 12.5px  ;
     display: inline-block;
@@ -86,8 +126,8 @@ section{
     height: 50%;
 }
 .card2 {
-    width: 30%;
-    height:90%;
+    width: 35%;
+    height:95%;
     padding: 1px;
     margin: 12.5px ;
     display: inline-block;
@@ -98,6 +138,63 @@ section{
     width: 100%;
     height: 50%;
 }
+.anuncio2{
+    width: 95%;
+    height: 30%;
+    z-index: 3;
+    color: white;
+    text-align: justify;
+    margin: 5px auto;
+
+}
+.btn2{
+    width: 50%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    z-index: 4;
+    margin: 2px;
+    text-align: center;
+    float: right;
+   
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2:hover{
+    font-size: 2.5rem;
+}
+.anuncio3{
+    width: 95%;
+    height: 30%;
+    z-index: 3;
+    color: white;
+    text-align: justify;
+    margin: 5px auto;
+
+}
+.btn3{
+    width: 50%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    z-index: 4;
+    margin: 2px;
+    text-align: center;
+    float: right;
+   
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+}
+.btn3:hover{
+    font-size: 2.5rem;
+}
+
 .article2 {
     width: 100%;
     height: 25%;
@@ -114,10 +211,10 @@ section{
     color: white;
     width:  220px;
     height: 220px;
-    margin: 5px;
+    margin: 25px;
+    margin-left: 205px;
     padding: 1px;
-    
-    display: inline-block
+    float: left;
 }
 .b2{
     background-image: url(../img/8917448327198.jpg);
@@ -126,12 +223,23 @@ section{
     color: white;
     width:  220px;
     height: 220px;
-    margin: 5px;
-    display: inline-block;
+    margin: 25px;
+    float: left;
 
 
 }
 
+.b4{
+    background-image: url(../img/8917447966750.jpg);
+    text-transform:75%;
+    border: 1px solid rgb(238, 233, 129);
+    color: white;
+    width:  220px;
+    height: 220px;
+    margin: 25px;
+    padding: 1px;
+    float: right;
+}
 
 .b3{
     background-image: url(../img/8917447868446.jpg);
@@ -140,20 +248,11 @@ section{
     color: white;
     width:  220px;
     height: 220px;
-    margin: 5px;
+    margin: 25px;
+    margin-right: 205px;
     padding: 1px;
-    display: inline-block;
-}
-.b4{
-    background-image: url(../img/8917447966750.jpg);
-    text-transform:75%;
-    border: 1px solid rgb(238, 233, 129);
-    color: white;
-    width:  220px;
-    height: 220px;
-    margin: 5px;
-    padding: 1px;
-    display: inline-block;
+    float: right;
+    
 }
 
 
