@@ -7,7 +7,6 @@
     width: 100%;
     height: 120px;
     margin: 0px;
-    border: 1px solid burlywood;
     
 
  }
@@ -33,7 +32,6 @@
     margin-right: 215px;
     position: relative;
     float: right;
-    border: 1px solid red;
 }
 .menu ul{
     text-decoration: none;
@@ -59,7 +57,6 @@
 section{
     width: 100%;
     height: 1150px;
-    border: 1px solid rgb(255, 0, 17);
 }
 .banner{
     width: 100%;
@@ -108,7 +105,6 @@ section{
     height: 40%;
     float: left;
     position: relative;
-    border: 1px solid rgb(10, 105, 46);
     text-align: center;
 }
 
@@ -119,7 +115,6 @@ section{
     margin: 12.5px  ;
     display: inline-block;
     background-color: rgb(191, 30, 30);
-    border: 1px solid rgb(18, 226, 46);
 }
 .card1 img{
     width: 100%;
@@ -132,7 +127,6 @@ section{
     margin: 12.5px ;
     display: inline-block;
     background-color: rgb(228, 128, 85);
-    border: 1px solid rgb(50, 228, 65);
 }
 .card2 img{
     width: 100%;
@@ -197,62 +191,93 @@ section{
 
 .article2 {
     width: 100%;
-    height: 25%;
-    border: 1px solid blue;
+    height: 20%;
     float: left;
-    position: relative;  
+    position: static;  
     text-align: center; 
 
 }
 .b1{
     background-image: url(../img/8917447704606.jpg);
-    text-transform:75%;
+    filter: brightness(0.8);
     border: 1px solid rgb(238, 233, 129);
-    color: white;
     width:  220px;
     height: 220px;
-    margin: 25px;
-    margin-left: 205px;
+    margin: 30px ;
+    margin-top: 3px;
     padding: 1px;
-    float: left;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+
+}
+.b1-btn{
+    width: 50%;
+    height: 25px;
+    background: rgb(53, 118, 241);
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 10px;
+    z-index: 4;
+    margin: 10px ;
+    text-align: center;
+    float: right;
+    margin-top: 80px;
+    padding: 2px;
+}
+
+.b1-btn a{
+    text-decoration: none;
+    color: white;
+}
+.b1-btn:hover{
+    font-size: 1.5rem;
 }
 .b2{
     background-image: url(../img/8917448327198.jpg);
-    text-transform:75%;
     border: 1px solid rgb(238, 233, 129);
+    filter: brightness(0.8);
+
     color: white;
     width:  220px;
     height: 220px;
-    margin: 25px;
-    float: left;
+    margin: 30px ;
+    margin-top: 3px;
 
-
-}
-
-.b4{
-    background-image: url(../img/8917447966750.jpg);
-    text-transform:75%;
-    border: 1px solid rgb(238, 233, 129);
-    color: white;
-    width:  220px;
-    height: 220px;
-    margin: 25px;
     padding: 1px;
-    float: right;
+    display: inline-block;
+
+
 }
+
 
 .b3{
     background-image: url(../img/8917447868446.jpg);
-    text-transform:75%;
     border: 1px solid rgb(238, 233, 129);
     color: white;
+    filter: brightness(0.8);
+
     width:  220px;
     height: 220px;
-    margin: 25px;
-    margin-right: 205px;
+    margin: 30px;
+    margin-top: 3px;
+
     padding: 1px;
-    float: right;
+    display: inline-block;
     
+}
+.b4{
+    background-image: url(../img/8917447966750.jpg);
+    border: 1px solid rgb(238, 233, 129);
+    color: white;
+    filter: brightness(0.8);
+
+    width:  220px;
+    height: 220px;
+    margin: 30px ;
+    margin-top: 3px;
+
+    padding: 1px;
+    display: inline-block;
 }
 
 
