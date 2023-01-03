@@ -14,7 +14,6 @@
  .logo{
     width: 45%;
     height:100%
-    border: 1px solid burlywood;
     float: left;
     position: relative;
 
@@ -50,7 +49,7 @@
 
 section{
     width: 100%;
-    height: 1200px;
+    height: 950px;
     border: 1px solid rgb(255, 0, 17);
 }
 .banner{
@@ -75,10 +74,9 @@ section{
 
 .card1 {
     width: 30%;
-    height:95%;
+    height:90%;
     padding: 1px;
-    margin-top: auto;
-    margin: 10px , auto ;
+    margin: 12.5px  ;
     display: inline-block;
     background-color: rgb(191, 30, 30);
     border: 1px solid rgb(18, 226, 46);
@@ -89,10 +87,9 @@ section{
 }
 .card2 {
     width: 30%;
-    height: 95%;
+    height:90%;
     padding: 1px;
-    margin-top: auto;
-    margin: 10px , auto ;
+    margin: 12.5px ;
     display: inline-block;
     background-color: rgb(228, 128, 85);
     border: 1px solid rgb(50, 228, 65);
@@ -103,76 +100,66 @@ section{
 }
 .article2 {
     width: 100%;
-    height: 35%;
+    height: 25%;
     border: 1px solid blue;
     float: left;
     position: relative;  
     text-align: center; 
 
 }
-.article2 .b1{
+.b1{
     background-image: url(../img/8917447704606.jpg);
     text-transform:75%;
     border: 1px solid rgb(238, 233, 129);
     color: white;
-    width:  23%;
-    height: 400px;
-    margin: 10px;
+    width:  220px;
+    height: 220px;
+    margin: 5px;
     padding: 1px;
-    float: left;
+    
+    display: inline-block
 }
 .b2{
+    background-image: url(../img/8917448327198.jpg);
     text-transform:75%;
     border: 1px solid rgb(238, 233, 129);
     color: white;
-    width:  23%;
-    height: 400px;
-    padding: 1px;
-    float: left;
+    width:  220px;
+    height: 220px;
+    margin: 5px;
+    display: inline-block;
 
-}
-.b2 img{
-    width: 100%;
-    height: 100%;
-}
 
-.b2 p{
-    float: left;
-
-}
-.article2 .bloque2{
-    float:left;
-    width: 100%;
-    height: 100%;
-    z-index:  2;
 }
 
 
 .b3{
+    background-image: url(../img/8917447868446.jpg);
     text-transform:75%;
     border: 1px solid rgb(238, 233, 129);
     color: white;
-    width:  23%;
-    height: 400px;
-    margin: 10px;
+    width:  220px;
+    height: 220px;
+    margin: 5px;
     padding: 1px;
-    float: right   ;
+    display: inline-block;
 }
 .b4{
+    background-image: url(../img/8917447966750.jpg);
     text-transform:75%;
     border: 1px solid rgb(238, 233, 129);
     color: white;
-    width:  23%;
-    height: 400px;
-    margin: 10px;
+    width:  220px;
+    height: 220px;
+    margin: 5px;
     padding: 1px;
-float: right;
+    display: inline-block;
 }
 
 
 footer {
     background-color: lightgray;
     clear: both;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
 }
