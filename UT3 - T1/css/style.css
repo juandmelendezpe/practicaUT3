@@ -1,21 +1,63 @@
 * {
     box-sizing: border-box;
 }
+:root{
+    --color-fondo: #151549;
+    --color-texto-header:#fff;
+    --color-fondo-footer: #d3d3d3;
+    --color-hover-header: #fab30e;
 
-
- header{
-    width: 100%;
-    height: 120px;
+}
+body{
     margin: 0px;
-    
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+ .container{
+    margin: 0 auto;
+    height: 80%;
+ }
+ #headerIzq{
+    float: left;
 
  }
+ #headerDer{
+    float: right;
+    width: 80%;
+
+ }
+header img{
+    width: 80px;
+}
+header ul, header li{
+    padding: 0px;
+    margin: 0px;
+
+}
+header li{
+    list-style-type: none;
+    float: right;
+    margin: 30px 5px 10px ;
+    padding: 5px 10px;
+    color:var(--color-texto-header);
+}
+header li:hover{
+    background-color: #151549;
+}
+.fotogrande{
+    background-image: url(../img/fotogrande.jpg);
+    height: 500px;
+    border-radius: 3px;
+    background-size: cover;
+}
+
 
  .logo{
     width: 35%;
     height:100%;
     margin :1px;
-    margin-left: 215px;
+    margin-left: 210px;
     padding : 0px;
     float: left;
     position : relative;
@@ -27,27 +69,34 @@
   }
 .menu {
     color: rgb(126, 126, 130);
-    width: 35%;
+    width: 35% ;
     height: 100%;
-    margin-right: 215px;
+    margin: 1px;
     position: relative;
     float: right;
+    text-align: center;
 }
 .menu ul{
     text-decoration: none;
-    margin: 25px auto;
+    
 }
 .menu ul li{
-    float: left;
+    width: 35px;
+    height: 20px;
     display: block;
     font-size: 20px;
-    margin: 12px ;
+    margin: 10px ;
     padding: 1px;
     border-radius: 10px;
+    color: rgb(126, 126, 130);
+    float: left;
+    position: relative;
+    text-decoration: none;
+
 
 }
 .menu ul li:hover{
-    background: rgb(53, 118, 241);
+    background: rgb(78, 183, 231);
     color: white;
 } 
 .menu ul li:hover{
