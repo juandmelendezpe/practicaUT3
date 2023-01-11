@@ -12,6 +12,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    width: 100%;
 }
 
  .container{
@@ -20,6 +21,7 @@ body{
  }
  #headerIzq{
     float: left;
+    width: 20%;
 
  }
  #headerDer{
@@ -29,21 +31,24 @@ body{
  }
 header img{
     width: 80px;
+}header ul,
+header li {
+    padding: 0;
+    margin: 0;
 }
-header ul, header li{
-    padding: 0px;
-    margin: 0px;
 
-}
-header li{
+header li {
     list-style-type: none;
     float: right;
-    margin: 30px 5px 10px ;
+    margin: 30px 5px 10px 20px;
     padding: 5px 10px;
-    color:var(--color-texto-header);
+    
 }
-header li:hover{
-    background-color: #151549;
+
+header li:hover {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 3px;
 }
 .fotogrande{
     background-image: url(../img/fotogrande.jpg);
