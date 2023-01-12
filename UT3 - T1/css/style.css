@@ -31,8 +31,8 @@ body{
  }
 header img{
     width: 80px;
-}header ul,
-header li {
+}
+header ul, header li {
     padding: 0;
     margin: 0;
 }
@@ -56,7 +56,7 @@ header li:hover {
     border-radius: 3px;
     background-size: cover;
 }
-
+/*
 
  .logo{
     width: 35%;
@@ -111,7 +111,7 @@ header li:hover {
 section{
     width: 100%;
     height: 1150px;
-}
+}*/
 .banner{
     width: 100%;
     height: 35%;
