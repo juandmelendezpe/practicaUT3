@@ -6,7 +6,8 @@
     --bg-color: #009fe3;
     --text-color: #FFF;
     --header-text-color: #808080;
-    
+    --card-izq: #f39;
+    --card-der: #f93;
 }
 
 body {
@@ -67,29 +68,49 @@ header li:hover {
     height: 500px;
     background-size: cover;
 }
-#fotoGrandeDentro{
+
+#fotoGrandeDentro {
     color: var(--text-color);
-    padding-top: 20px; ;
+    padding-top: 20px;
     font-size: 2rem;
 }
-#fotoGrandeDentro input{
-background-color: var(--bg-color);
-color: var(--text-color);
-padding: 8px 80px;
-border: 0;
-border-radius: 10px;
+
+#fotoGrandeDentro input {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 8px 80px;
+    border: 0;
+    border-radius: 3px;
 }
+
 .noticia-arriba {
     width: 47%;
     float: left;
     margin: 10px;
+
 }
+
 .noticia-arriba:nth-of-type(2) {
-float: right;
+    float: right;
 }
 
+.noticia-arriba__img {
+    margin-bottom: -5px;
+}
 
-.noticia-arriba_img img{
+.noticia-arriba__texto p:first-of-type{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.noticia-arriba__img img {
     width: 100%;
 }
 
+.noticia-arriba__texto--rosa {
+    background-color: var(--card-izq);
+}
+
+.noticia-arriba__texto--naranja {
+    background-color: var(--card-der);
+}
