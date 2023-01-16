@@ -189,11 +189,11 @@ header li:hover {
     font-size: 1.1rem;
 }
 
-
-
-footer {
-    background-color: lightgray;
+.footer {
+    background-color: var(--bg-color);
+    color: var(--text-color);
     clear: both;
-    padding: 12px;
-    text-align: center;
+    padding : 12px;
+    text-align : center;
 }
+
