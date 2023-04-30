@@ -195,5 +195,6 @@ header li:hover {
     clear: both;
     padding : 12px;
     text-align : center;
+    font-size :1rem; 
 }
 
